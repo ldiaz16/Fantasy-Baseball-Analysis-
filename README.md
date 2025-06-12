@@ -19,6 +19,46 @@ This project is a **React-based web application** designed to display detailed s
 - **Data Fetching**:
   - Fetches league data dynamically from `league_data.json`.
 
+### Advanced Analytics
+- **Linear Regression: Predicting Expected Points per Plate Appearance**:
+    - The application uses linear regression to predict a player's expected points per plate appearance (expected_points_per_pa) based on their weighted wRC+ value.
+- **Steps**:
+    1. Collect data points (weighted_wrc and points_per_pa) for all players.
+    2. Fit a linear regression model using weighted_wrc as the independent variable and points_per_pa as the dependent variable.
+    3. Calculate the slope and intercept of the regression line.
+    4. Predict expected_points_per_pa for each player based on their weighted_wrc.
+    5. Compute the residual (regression_residual) as the difference between the actual points_per_pa and the predicted value.
+- **Purpose**:
+    - Helps identify players who are overperforming or underperforming relative to their expected points based on wRC+.
+
+### League-Wide Z-Scores
+- Z-scores are calculated for weighted_wrc and points_per_pa to standardize player performance metrics across the league.
+- **Steps**:
+    1. Compute the mean and standard deviation for weighted_wrc and points_per_pa.
+    2. Calculate the z-score for each player:
+        z_wrc: Standardized weighted_wrc.
+        z_points: Standardized points_per_pa.
+    3. Compute the difference between the z-scores (z_diff) to measure discrepancies between hitting performance and fantasy points.
+- **Purpose**:
+    - Provides a normalized view of player performance relative to the league average.
+
+### Z-Score of Z-Diff
+    -  A secondary z-score (z_score_of_z_diff) is calculated for the z_diff values to further standardize discrepancies across the league.
+- **Steps**:
+    1. Compute the mean and standard deviation of z_diff.
+    2. Calculate the z-score for each player's z_diff.
+- **Purpose**:
+    - Highlights players whose performance metrics deviate significantly from the league norm.
+
+### Why These Metrics Matter
+- **Expected Points per Plate Appearance**:
+    - Useful for evaluating player efficiency and identifying undervalued or overvalued players.
+- **Z-Scores**:
+    - Standardized metrics allow for easy comparison of players across different teams and positions.
+- **Z-Score of Z-Diff**:
+     - Pinpoints players whose fantasy points are disproportionately high or low compared to their hitting performance.
+
+
 ### Code Limitations
 1. **Static Data Source**:
    - The app relies on a pre-generated `league_data.json` file. Real-time updates or API integration are not yet implemented.
