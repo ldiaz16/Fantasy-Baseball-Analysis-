@@ -1,0 +1,303 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(13, 97, 214, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Add this to your CSS file */
+.Table-wrapper table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Table-wrapper th, .Table-wrapper td {
+  border: 1px solid #ddd; /* Add column lines */
+  padding: 8px;
+}
+
+.Table-wrapper th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.Table-wrapper tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.Table-wrapper th, .Table-wrapper td {
+  padding: 4px; /* Reduce padding for tighter spacing */
+}
+
+.Table-wrapper thead th {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.name-column {
+  width: 150px; /* Adjust the width as needed */
+  max-width: 150px; /* Ensure it doesn't grow beyond this */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis for long text */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding:  20px;
+  background-color: #ffffff;
+  
+}
+
+/* Modernize the file upload button */
+.file-upload {
+  display: inline-block;
+  position: relative;
+}
+
+.file-upload-label {
+  display: inline-block;
+  padding: 10px 20px;
+  width: 150px;
+  background-color: #646cff; /* Modern blue color */
+  color: #fff; /* White text */
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor for better UX */
+  text-align: center;
+  transition: all 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-right: 20px;;
+}
+
+
+.file-upload-label:hover {
+  background-color: #535bf2; /* Darker blue on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow */
+}
+
+.file-upload-label:active {
+  background-color: #4048c8; /* Even darker blue on click */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reset shadow */
+}
+
+.file-upload-input {
+  display: none; /* Hide the default file input */
+}
+
+.custom-tooltip {
+  background-color: #fff;
+  padding :5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size:12px;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between menu and "How It Works" button */
+  margin-bottom: 20px;
+}
+
+.menu-row {
+  display: flex;
+  gap: 15px; /* Add spacing between menu buttons */
+}
+
+.how-it-works-button {
+  margin-left: auto; /* Push the button to the right */
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.sorting-controls {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.sorting-controls select,
+.sorting-controls button {
+  padding: 5px 10px;
+  background-color: #646cff; /* Modern blue color */
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.sorting-controls button:hover {
+  background-color: #535bf2; /* Darker blue on hover */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.stats-Table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.sorted-column {
+  background-color: #6b8dfb; /* Light blue background for sorted column */
+  font-weight: bold; /* Emphasize the sorted column */
+}
+
+.stats-Table th,
+.stats-Table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.stats-Table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Vertically align the items */
+  justify-content: space-between; /* Space between the h1 and file upload */
+  margin-bottom: 20px; /* Add spacing below the header */
+}
+
+.file-upload-container {
+  margin-left: auto; /* Push the file upload to the right */
+}
+
+.file-upload-container input[type="file"] {
+  font-size: 0.8em; /* Adjust font size to make it smaller */
+  padding: 5px; /* Add padding for better appearance */
+}
+.stats-dropdown {
+  display: inline-block;
+  padding: 10px 20px; /* Add padding for a button-like appearance */
+  background-color: #646cff; /* Modern blue background */
+  color: #fff; /* White text for contrast */
+  font-size: 1em; /* Modern font size */
+  font-weight: bold; /* Bold text for emphasis */
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor for better UX */
+  text-align: center; /* Center-align text */
+  transition: all 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  appearance: none; /* Remove default dropdown styling */
+}
+
+.stats-dropdown:hover {
+  background-color: #535bf2; /* Darker blue on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow */
+}
+
+.stats-dropdown:focus {
+  outline: none; /* Remove default focus outline */
+  background-color: #4048c8; /* Even darker blue on focus */
+  box-shadow: 0 0 0 3px rgba(99, 123, 255, 0.5); /* Add focus ring */
+}
+
+.stats-dropdown option {
+  background-color: #fff; /* White background for dropdown options */
+  color: #333; /* Dark text for readability */
+}
+
+.export-CSV {
+  display: flex;
+  justify-content: inline-end; /* Align to the right */
+  float: right;
+  padding: 10px 20px; /* Add padding for a button-like appearance */
+  background-color: #646cff; /* Modern blue background */
+  color: #fff; /* White text for contrast */
+  font-size: 1em; /* Modern font size */
+  font-weight: bold; /* Bold text for emphasis */
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor for better UX */
+  text-align: center; /* Center-align text */
+  transition: all 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (max-width: 1024px) {
+  div {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  input[type = file] {
+    width: 100%;
+  }
+
+  .team-card {
+    padding: 10px;
+  }
+
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

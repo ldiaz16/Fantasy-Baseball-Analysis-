@@ -1,0 +1,1184 @@
+{
+  "free_agents": [
+    {
+      "name": "Salvador Perez",
+      "normalized_name": "salvador perez",
+      "position": "Unknown",
+      "points": 66.5,
+      "wRC": 72,
+      "OPS": 0.628,
+      "BABIP": 0.288,
+      "wRCMinusPoints": 5.5
+    },
+    {
+      "name": "Marcus Semien",
+      "normalized_name": "marcus semien",
+      "position": "Unknown",
+      "points": 56.5,
+      "wRC": 46,
+      "OPS": 0.501,
+      "BABIP": 0.205,
+      "wRCMinusPoints": -10.5
+    },
+    {
+      "name": "Keibert Ruiz",
+      "normalized_name": "keibert ruiz",
+      "position": "Unknown",
+      "points": 78.0,
+      "wRC": 108,
+      "OPS": 0.728,
+      "BABIP": 0.328,
+      "wRCMinusPoints": 30.0
+    },
+    {
+      "name": "Carson Kelly",
+      "normalized_name": "carson kelly",
+      "position": "Unknown",
+      "points": 116.0,
+      "wRC": 206,
+      "OPS": 1.114,
+      "BABIP": 0.259,
+      "wRCMinusPoints": 90.0
+    },
+    {
+      "name": "Willy Adames",
+      "normalized_name": "willy adames",
+      "position": "Unknown",
+      "points": 80.0,
+      "wRC": 82,
+      "OPS": 0.635,
+      "BABIP": 0.281,
+      "wRCMinusPoints": 2.0
+    },
+    {
+      "name": "Eugenio Suarez",
+      "normalized_name": "eugenio suarez",
+      "position": "Unknown",
+      "points": 113.5,
+      "wRC": 112,
+      "OPS": 0.779,
+      "BABIP": 0.191,
+      "wRCMinusPoints": -1.5
+    },
+    {
+      "name": "Adolis Garcia",
+      "normalized_name": "adolis garcia",
+      "position": "Unknown",
+      "points": 80.5,
+      "wRC": 80,
+      "OPS": 0.648,
+      "BABIP": 0.255,
+      "wRCMinusPoints": -0.5
+    },
+    {
+      "name": "Lourdes Gurriel Jr.",
+      "normalized_name": "lourdes gurriel",
+      "position": "Unknown",
+      "points": 100.0,
+      "wRC": 76,
+      "OPS": 0.662,
+      "BABIP": 0.202,
+      "wRCMinusPoints": -24.0
+    },
+    {
+      "name": "Andres Gimenez",
+      "normalized_name": "andres gimenez",
+      "position": "Unknown",
+      "points": 74.0,
+      "wRC": 68,
+      "OPS": 0.577,
+      "BABIP": 0.22,
+      "wRCMinusPoints": -6.0
+    },
+    {
+      "name": "Jordan Westburg",
+      "normalized_name": "jordan westburg",
+      "position": "Unknown",
+      "points": 39.5,
+      "wRC": 87,
+      "OPS": 0.657,
+      "BABIP": 0.242,
+      "wRCMinusPoints": 47.5
+    },
+    {
+      "name": "Jonathan India",
+      "normalized_name": "jonathan india",
+      "position": "Unknown",
+      "points": 73.0,
+      "wRC": 86,
+      "OPS": 0.644,
+      "BABIP": 0.279,
+      "wRCMinusPoints": 13.0
+    },
+    {
+      "name": "Anthony Volpe",
+      "normalized_name": "anthony volpe",
+      "position": "Unknown",
+      "points": 109.0,
+      "wRC": 121,
+      "OPS": 0.777,
+      "BABIP": 0.3,
+      "wRCMinusPoints": 12.0
+    },
+    {
+      "name": "Logan O'Hoppe",
+      "normalized_name": "logan ohoppe",
+      "position": "Unknown",
+      "points": 62.5,
+      "wRC": 122,
+      "OPS": 0.798,
+      "BABIP": 0.333,
+      "wRCMinusPoints": 59.5
+    },
+    {
+      "name": "Taylor Ward",
+      "normalized_name": "taylor ward",
+      "position": "Unknown",
+      "points": 76.5,
+      "wRC": 71,
+      "OPS": 0.637,
+      "BABIP": 0.194,
+      "wRCMinusPoints": -5.5
+    },
+    {
+      "name": "Carlos Correa",
+      "normalized_name": "carlos correa",
+      "position": "Unknown",
+      "points": 59.5,
+      "wRC": 69,
+      "OPS": 0.598,
+      "BABIP": 0.272,
+      "wRCMinusPoints": 9.5
+    },
+    {
+      "name": "Spencer Steer",
+      "normalized_name": "spencer steer",
+      "position": "Unknown",
+      "points": 59.0,
+      "wRC": 53,
+      "OPS": 0.559,
+      "BABIP": 0.234,
+      "wRCMinusPoints": -6.0
+    },
+    {
+      "name": "J.T. Realmuto",
+      "normalized_name": "jt realmuto",
+      "position": "Unknown",
+      "points": 70.5,
+      "wRC": 102,
+      "OPS": 0.719,
+      "BABIP": 0.322,
+      "wRCMinusPoints": 31.5
+    },
+    {
+      "name": "Luis Garcia Jr.",
+      "normalized_name": "luis garcia",
+      "position": "Unknown",
+      "points": 85.5,
+      "wRC": 72,
+      "OPS": 0.618,
+      "BABIP": 0.235,
+      "wRCMinusPoints": -13.5
+    },
+    {
+      "name": "Hunter Goodman",
+      "normalized_name": "hunter goodman",
+      "position": "Unknown",
+      "points": 106.5,
+      "wRC": 123,
+      "OPS": 0.847,
+      "BABIP": 0.346,
+      "wRCMinusPoints": 16.5
+    },
+    {
+      "name": "Javier Baez",
+      "normalized_name": "javier baez",
+      "position": "Unknown",
+      "points": 78.5,
+      "wRC": 132,
+      "OPS": 0.808,
+      "BABIP": 0.398,
+      "wRCMinusPoints": 53.5
+    },
+    {
+      "name": "Gabriel Moreno",
+      "normalized_name": "gabriel moreno",
+      "position": "Unknown",
+      "points": 53.0,
+      "wRC": 81,
+      "OPS": 0.629,
+      "BABIP": 0.301,
+      "wRCMinusPoints": 28.0
+    },
+    {
+      "name": "Wilmer Flores",
+      "normalized_name": "wilmer flores",
+      "position": "Unknown",
+      "points": 105.0,
+      "wRC": 98,
+      "OPS": 0.7,
+      "BABIP": 0.267,
+      "wRCMinusPoints": -7.0
+    },
+    {
+      "name": "Royce Lewis",
+      "normalized_name": "royce lewis",
+      "position": "Unknown",
+      "points": 2.5,
+      "wRC": null,
+      "OPS": null,
+      "BABIP": null,
+      "wRCMinusPoints": null
+    },
+    {
+      "name": "JJ Bleday",
+      "normalized_name": "jj bleday",
+      "position": "Unknown",
+      "points": 90.0,
+      "wRC": 100,
+      "OPS": 0.701,
+      "BABIP": 0.248,
+      "wRCMinusPoints": 10.0
+    },
+    {
+      "name": "Zach McKinstry",
+      "normalized_name": "zach mckinstry",
+      "position": "Unknown",
+      "points": 82.0,
+      "wRC": 121,
+      "OPS": 0.766,
+      "BABIP": 0.393,
+      "wRCMinusPoints": 39.0
+    },
+    {
+      "name": "Ivan Herrera",
+      "normalized_name": "ivan herrera",
+      "position": "Unknown",
+      "points": 55.0,
+      "wRC": 260,
+      "OPS": 1.368,
+      "BABIP": 0.316,
+      "wRCMinusPoints": 205.0
+    },
+    {
+      "name": "Luis Robert Jr.",
+      "normalized_name": "luis robert",
+      "position": "Unknown",
+      "points": 83.0,
+      "wRC": 78,
+      "OPS": 0.619,
+      "BABIP": 0.244,
+      "wRCMinusPoints": -5.0
+    },
+    {
+      "name": "Alejandro Kirk",
+      "normalized_name": "alejandro kirk",
+      "position": "Unknown",
+      "points": 58.0,
+      "wRC": 93,
+      "OPS": 0.682,
+      "BABIP": 0.314,
+      "wRCMinusPoints": 35.0
+    },
+    {
+      "name": "Alec Burleson",
+      "normalized_name": "alec burleson",
+      "position": "Unknown",
+      "points": 61.5,
+      "wRC": 87,
+      "OPS": 0.662,
+      "BABIP": 0.297,
+      "wRCMinusPoints": 25.5
+    },
+    {
+      "name": "Triston Casas",
+      "normalized_name": "triston casas",
+      "position": "Unknown",
+      "points": 36.5,
+      "wRC": 58,
+      "OPS": 0.58,
+      "BABIP": 0.217,
+      "wRCMinusPoints": 21.5
+    },
+    {
+      "name": "Tyler Stephenson",
+      "normalized_name": "tyler stephenson",
+      "position": "Unknown",
+      "points": 15.5,
+      "wRC": 113,
+      "OPS": 0.794,
+      "BABIP": 0.429,
+      "wRCMinusPoints": 97.5
+    },
+    {
+      "name": "Jake Burger",
+      "normalized_name": "jake burger",
+      "position": "Unknown",
+      "points": 35.5,
+      "wRC": 56,
+      "OPS": 0.564,
+      "BABIP": 0.246,
+      "wRCMinusPoints": 20.5
+    },
+    {
+      "name": "Max Muncy",
+      "normalized_name": "max muncy",
+      "position": "Unknown",
+      "points": 37.5,
+      "wRC": 78,
+      "OPS": 0.599,
+      "BABIP": 0.28,
+      "wRCMinusPoints": 40.5
+    },
+    {
+      "name": "Jasson Dominguez",
+      "normalized_name": "jasson dominguez",
+      "position": "Unknown",
+      "points": 85.0,
+      "wRC": 126,
+      "OPS": 0.792,
+      "BABIP": 0.338,
+      "wRCMinusPoints": 41.0
+    },
+    {
+      "name": "Willi Castro",
+      "normalized_name": "willi castro",
+      "position": "Unknown",
+      "points": 33.0,
+      "wRC": 74,
+      "OPS": 0.613,
+      "BABIP": 0.286,
+      "wRCMinusPoints": 41.0
+    },
+    {
+      "name": "Sean Murphy",
+      "normalized_name": "sean murphy",
+      "position": "Unknown",
+      "points": 61.5,
+      "wRC": 133,
+      "OPS": 0.839,
+      "BABIP": 0.28,
+      "wRCMinusPoints": 71.5
+    },
+    {
+      "name": "Trevor Story",
+      "normalized_name": "trevor story",
+      "position": "Unknown",
+      "points": 78.0,
+      "wRC": 78,
+      "OPS": 0.645,
+      "BABIP": 0.317,
+      "wRCMinusPoints": 0.0
+    },
+    {
+      "name": "Sal Frelick",
+      "normalized_name": "sal frelick",
+      "position": "Unknown",
+      "points": 91.0,
+      "wRC": 108,
+      "OPS": 0.723,
+      "BABIP": 0.31,
+      "wRCMinusPoints": 17.0
+    },
+    {
+      "name": "Jurickson Profar",
+      "normalized_name": "jurickson profar",
+      "position": "Unknown",
+      "points": 3.0,
+      "wRC": null,
+      "OPS": null,
+      "BABIP": null,
+      "wRCMinusPoints": null
+    },
+    {
+      "name": "Noelvi Marte",
+      "normalized_name": "noelvi marte",
+      "position": "Unknown",
+      "points": 70.5,
+      "wRC": 131,
+      "OPS": 0.857,
+      "BABIP": 0.321,
+      "wRCMinusPoints": 60.5
+    },
+    {
+      "name": "Xavier Edwards",
+      "normalized_name": "xavier edwards",
+      "position": "Unknown",
+      "points": 88.0,
+      "wRC": 79,
+      "OPS": 0.627,
+      "BABIP": 0.316,
+      "wRCMinusPoints": -9.0
+    },
+    {
+      "name": "Josh Smith",
+      "normalized_name": "josh smith",
+      "position": "Unknown",
+      "points": 85.5,
+      "wRC": 149,
+      "OPS": 0.869,
+      "BABIP": 0.368,
+      "wRCMinusPoints": 63.5
+    },
+    {
+      "name": "Gavin Lux",
+      "normalized_name": "gavin lux",
+      "position": "Unknown",
+      "points": 80.0,
+      "wRC": 114,
+      "OPS": 0.767,
+      "BABIP": 0.379,
+      "wRCMinusPoints": 34.0
+    },
+    {
+      "name": "Jonathan Aranda",
+      "normalized_name": "jonathan aranda",
+      "position": "Unknown",
+      "points": 94.5,
+      "wRC": 184,
+      "OPS": 0.981,
+      "BABIP": 0.425,
+      "wRCMinusPoints": 89.5
+    },
+    {
+      "name": "Chandler Simpson",
+      "normalized_name": "chandler simpson",
+      "position": "Unknown",
+      "points": 46.5,
+      "wRC": 74,
+      "OPS": 0.596,
+      "BABIP": 0.297,
+      "wRCMinusPoints": 27.5
+    },
+    {
+      "name": "Victor Scott II",
+      "normalized_name": "victor scott ii",
+      "position": "Unknown",
+      "points": 97.0,
+      "wRC": 115,
+      "OPS": 0.755,
+      "BABIP": 0.378,
+      "wRCMinusPoints": 18.0
+    },
+    {
+      "name": "Tyler O'Neill",
+      "normalized_name": "tyler oneill",
+      "position": "Unknown",
+      "points": 37.0,
+      "wRC": 87,
+      "OPS": 0.659,
+      "BABIP": 0.26,
+      "wRCMinusPoints": 50.0
+    },
+    {
+      "name": "Ezequiel Tovar",
+      "normalized_name": "ezequiel tovar",
+      "position": "Unknown",
+      "points": 22.5,
+      "wRC": 43,
+      "OPS": 0.56,
+      "BABIP": 0.264,
+      "wRCMinusPoints": 20.5
+    },
+    {
+      "name": "Austin Hays",
+      "normalized_name": "austin hays",
+      "position": "Unknown",
+      "points": 63.5,
+      "wRC": 171,
+      "OPS": 1.011,
+      "BABIP": 0.385,
+      "wRCMinusPoints": 107.5
+    },
+    {
+      "name": "Gabriel Arias",
+      "normalized_name": "gabriel arias",
+      "position": "Unknown",
+      "points": 80.5,
+      "wRC": 114,
+      "OPS": 0.75,
+      "BABIP": 0.344,
+      "wRCMinusPoints": 33.5
+    },
+    {
+      "name": "Josh Jung",
+      "normalized_name": "josh jung",
+      "position": "Unknown",
+      "points": 62.0,
+      "wRC": 107,
+      "OPS": 0.735,
+      "BABIP": 0.315,
+      "wRCMinusPoints": 45.0
+    },
+    {
+      "name": "Agustin Ramirez",
+      "normalized_name": "agustin ramirez",
+      "position": "Unknown",
+      "points": 47.5,
+      "wRC": 122,
+      "OPS": 0.824,
+      "BABIP": 0.26,
+      "wRCMinusPoints": 74.5
+    },
+    {
+      "name": "Christopher Morel",
+      "normalized_name": "christopher morel",
+      "position": "Unknown",
+      "points": 37.0,
+      "wRC": 100,
+      "OPS": 0.679,
+      "BABIP": 0.364,
+      "wRCMinusPoints": 63.0
+    },
+    {
+      "name": "Jorge Soler",
+      "normalized_name": "jorge soler",
+      "position": "Unknown",
+      "points": 63.5,
+      "wRC": 103,
+      "OPS": 0.724,
+      "BABIP": 0.287,
+      "wRCMinusPoints": 39.5
+    },
+    {
+      "name": "J.P. Crawford",
+      "normalized_name": "jp crawford",
+      "position": "Unknown",
+      "points": 90.0,
+      "wRC": 130,
+      "OPS": 0.754,
+      "BABIP": 0.337,
+      "wRCMinusPoints": 40.0
+    },
+    {
+      "name": "Jonah Heim",
+      "normalized_name": "jonah heim",
+      "position": "Unknown",
+      "points": 65.5,
+      "wRC": 113,
+      "OPS": 0.744,
+      "BABIP": 0.3,
+      "wRCMinusPoints": 47.5
+    },
+    {
+      "name": "Ceddanne Rafaela",
+      "normalized_name": "ceddanne rafaela",
+      "position": "Unknown",
+      "points": 90.5,
+      "wRC": 82,
+      "OPS": 0.662,
+      "BABIP": 0.282,
+      "wRCMinusPoints": -8.5
+    },
+    {
+      "name": "Ryan O'Hearn",
+      "normalized_name": "ryan ohearn",
+      "position": "Unknown",
+      "points": 89.0,
+      "wRC": 174,
+      "OPS": 0.95,
+      "BABIP": 0.307,
+      "wRCMinusPoints": 85.0
+    },
+    {
+      "name": "Matt Shaw",
+      "normalized_name": "matt shaw",
+      "position": "Unknown",
+      "points": 21.5,
+      "wRC": 63,
+      "OPS": 0.535,
+      "BABIP": 0.231,
+      "wRCMinusPoints": 41.5
+    },
+    {
+      "name": "Kyren Paris",
+      "normalized_name": "kyren paris",
+      "position": "Unknown",
+      "points": 48.0,
+      "wRC": 92,
+      "OPS": 0.688,
+      "BABIP": 0.296,
+      "wRCMinusPoints": 44.0
+    },
+    {
+      "name": "Carlos Santana",
+      "normalized_name": "carlos santana",
+      "position": "Unknown",
+      "points": 89.0,
+      "wRC": 91,
+      "OPS": 0.654,
+      "BABIP": 0.25,
+      "wRCMinusPoints": 2.0
+    },
+    {
+      "name": "Kyle Manzardo",
+      "normalized_name": "kyle manzardo",
+      "position": "Unknown",
+      "points": 91.0,
+      "wRC": 121,
+      "OPS": 0.791,
+      "BABIP": 0.228,
+      "wRCMinusPoints": 30.0
+    },
+    {
+      "name": "Spencer Horwitz",
+      "normalized_name": "spencer horwitz",
+      "position": "Unknown",
+      "points": 0.0,
+      "wRC": null,
+      "OPS": null,
+      "BABIP": null,
+      "wRCMinusPoints": null
+    },
+    {
+      "name": "Gavin Sheets",
+      "normalized_name": "gavin sheets",
+      "position": "Unknown",
+      "points": 83.0,
+      "wRC": 140,
+      "OPS": 0.846,
+      "BABIP": 0.375,
+      "wRCMinusPoints": 57.0
+    },
+    {
+      "name": "Josh Lowe",
+      "normalized_name": "josh lowe",
+      "position": "Unknown",
+      "points": 1.0,
+      "wRC": null,
+      "OPS": null,
+      "BABIP": null,
+      "wRCMinusPoints": null
+    },
+    {
+      "name": "Rhys Hoskins",
+      "normalized_name": "rhys hoskins",
+      "position": "Unknown",
+      "points": 81.5,
+      "wRC": 127,
+      "OPS": 0.806,
+      "BABIP": 0.345,
+      "wRCMinusPoints": 45.5
+    },
+    {
+      "name": "Pavin Smith",
+      "normalized_name": "pavin smith",
+      "position": "Unknown",
+      "points": 74.0,
+      "wRC": 167,
+      "OPS": 0.948,
+      "BABIP": 0.45,
+      "wRCMinusPoints": 93.0
+    },
+    {
+      "name": "Brandon Lowe",
+      "normalized_name": "brandon lowe",
+      "position": "Unknown",
+      "points": 51.0,
+      "wRC": 59,
+      "OPS": 0.55,
+      "BABIP": 0.231,
+      "wRCMinusPoints": 8.0
+    },
+    {
+      "name": "Roman Anthony",
+      "normalized_name": "roman anthony",
+      "position": "Unknown",
+      "points": 0.0,
+      "wRC": null,
+      "OPS": null,
+      "BABIP": null,
+      "wRCMinusPoints": null
+    },
+    {
+      "name": "Hyeseong Kim",
+      "normalized_name": "hyeseong kim",
+      "position": "Unknown",
+      "points": 13.0,
+      "wRC": null,
+      "OPS": null,
+      "BABIP": null,
+      "wRCMinusPoints": null
+    },
+    {
+      "name": "Otto Lopez",
+      "normalized_name": "otto lopez",
+      "position": "Unknown",
+      "points": 65.5,
+      "wRC": 73,
+      "OPS": 0.624,
+      "BABIP": 0.256,
+      "wRCMinusPoints": 7.5
+    },
+    {
+      "name": "Colt Keith",
+      "normalized_name": "colt keith",
+      "position": "Unknown",
+      "points": 68.0,
+      "wRC": 104,
+      "OPS": 0.685,
+      "BABIP": 0.24,
+      "wRCMinusPoints": 36.0
+    },
+    {
+      "name": "Jordan Beck",
+      "normalized_name": "jordan beck",
+      "position": "Unknown",
+      "points": 75.0,
+      "wRC": 124,
+      "OPS": 0.867,
+      "BABIP": 0.333,
+      "wRCMinusPoints": 49.0
+    },
+    {
+      "name": "Ryan Jeffers",
+      "normalized_name": "ryan jeffers",
+      "position": "Unknown",
+      "points": 64.0,
+      "wRC": 109,
+      "OPS": 0.717,
+      "BABIP": 0.296,
+      "wRCMinusPoints": 45.0
+    },
+    {
+      "name": "Ryan McMahon",
+      "normalized_name": "ryan mcmahon",
+      "position": "Unknown",
+      "points": 68.0,
+      "wRC": 95,
+      "OPS": 0.73,
+      "BABIP": 0.277,
+      "wRCMinusPoints": 27.0
+    },
+    {
+      "name": "Isiah Kiner-Falefa",
+      "normalized_name": "isiah kiner falefa",
+      "position": "Unknown",
+      "points": 59.5,
+      "wRC": 98,
+      "OPS": 0.705,
+      "BABIP": 0.349,
+      "wRCMinusPoints": 38.5
+    },
+    {
+      "name": "Luis Rengifo",
+      "normalized_name": "luis rengifo",
+      "position": "Unknown",
+      "points": 45.0,
+      "wRC": 50,
+      "OPS": 0.539,
+      "BABIP": 0.252,
+      "wRCMinusPoints": 5.0
+    },
+    {
+      "name": "Daniel Schneemann",
+      "normalized_name": "daniel schneemann",
+      "position": "Unknown",
+      "points": 56.0,
+      "wRC": 144,
+      "OPS": 0.857,
+      "BABIP": 0.32,
+      "wRCMinusPoints": 88.0
+    },
+    {
+      "name": "Tyler Fitzgerald",
+      "normalized_name": "tyler fitzgerald",
+      "position": "Unknown",
+      "points": 55.0,
+      "wRC": 120,
+      "OPS": 0.773,
+      "BABIP": 0.356,
+      "wRCMinusPoints": 65.0
+    },
+    {
+      "name": "Jose Caballero",
+      "normalized_name": "jose caballero",
+      "position": "Unknown",
+      "points": 48.0,
+      "wRC": 97,
+      "OPS": 0.668,
+      "BABIP": 0.36,
+      "wRCMinusPoints": 49.0
+    },
+    {
+      "name": "Luisangel Acuna",
+      "normalized_name": "luisangel acuna",
+      "position": "Unknown",
+      "points": 65.5,
+      "wRC": 95,
+      "OPS": 0.67,
+      "BABIP": 0.349,
+      "wRCMinusPoints": 29.5
+    },
+    {
+      "name": "Ryan Mountcastle",
+      "normalized_name": "ryan mountcastle",
+      "position": "Unknown",
+      "points": 49.0,
+      "wRC": 70,
+      "OPS": 0.599,
+      "BABIP": 0.284,
+      "wRCMinusPoints": 21.0
+    },
+    {
+      "name": "Nolan Schanuel",
+      "normalized_name": "nolan schanuel",
+      "position": "Unknown",
+      "points": 77.5,
+      "wRC": 96,
+      "OPS": 0.694,
+      "BABIP": 0.284,
+      "wRCMinusPoints": 18.5
+    },
+    {
+      "name": "Connor Norby",
+      "normalized_name": "connor norby",
+      "position": "Unknown",
+      "points": 32.5,
+      "wRC": 86,
+      "OPS": 0.669,
+      "BABIP": 0.375,
+      "wRCMinusPoints": 53.5
+    },
+    {
+      "name": "Giancarlo Stanton",
+      "normalized_name": "giancarlo stanton",
+      "position": "Unknown",
+      "points": 0.0,
+      "wRC": null,
+      "OPS": null,
+      "BABIP": null,
+      "wRCMinusPoints": null
+    },
+    {
+      "name": "Max Kepler",
+      "normalized_name": "max kepler",
+      "position": "Unknown",
+      "points": 81.0,
+      "wRC": 101,
+      "OPS": 0.72,
+      "BABIP": 0.253,
+      "wRCMinusPoints": 20.0
+    },
+    {
+      "name": "Lane Thomas",
+      "normalized_name": "lane thomas",
+      "position": "Unknown",
+      "points": 1.5,
+      "wRC": 1,
+      "OPS": 0.365,
+      "BABIP": 0.226,
+      "wRCMinusPoints": -0.5
+    },
+    {
+      "name": "Alex Verdugo",
+      "normalized_name": "alex verdugo",
+      "position": "Unknown",
+      "points": 52.5,
+      "wRC": 82,
+      "OPS": 0.646,
+      "BABIP": 0.278,
+      "wRCMinusPoints": 29.5
+    },
+    {
+      "name": "Cam Smith",
+      "normalized_name": "cam smith",
+      "position": "Unknown",
+      "points": 45.5,
+      "wRC": 99,
+      "OPS": 0.679,
+      "BABIP": 0.3,
+      "wRCMinusPoints": 53.5
+    },
+    {
+      "name": "Joey Ortiz",
+      "normalized_name": "joey ortiz",
+      "position": "Unknown",
+      "points": 48.5,
+      "wRC": 31,
+      "OPS": 0.461,
+      "BABIP": 0.205,
+      "wRCMinusPoints": -17.5
+    },
+    {
+      "name": "Jake Meyers",
+      "normalized_name": "jake meyers",
+      "position": "Unknown",
+      "points": 89.0,
+      "wRC": 126,
+      "OPS": 0.783,
+      "BABIP": 0.356,
+      "wRCMinusPoints": 37.0
+    },
+    {
+      "name": "Andrew Vaughn",
+      "normalized_name": "andrew vaughn",
+      "position": "Unknown",
+      "points": 52.5,
+      "wRC": 52,
+      "OPS": 0.554,
+      "BABIP": 0.22,
+      "wRCMinusPoints": -0.5
+    },
+    {
+      "name": "Jake McCarthy",
+      "normalized_name": "jake mccarthy",
+      "position": "Unknown",
+      "points": 11.0,
+      "wRC": -20,
+      "OPS": 0.268,
+      "BABIP": 0.083,
+      "wRCMinusPoints": -31.0
+    },
+    {
+      "name": "Daulton Varsho",
+      "normalized_name": "daulton varsho",
+      "position": "Unknown",
+      "points": 20.5,
+      "wRC": 97,
+      "OPS": 0.766,
+      "BABIP": 0.2,
+      "wRCMinusPoints": 76.5
+    },
+    {
+      "name": "Trevor Larnach",
+      "normalized_name": "trevor larnach",
+      "position": "Unknown",
+      "points": 92.5,
+      "wRC": 104,
+      "OPS": 0.716,
+      "BABIP": 0.278,
+      "wRCMinusPoints": 11.5
+    },
+    {
+      "name": "Dillon Dingler",
+      "normalized_name": "dillon dingler",
+      "position": "Unknown",
+      "points": 59.5,
+      "wRC": 118,
+      "OPS": 0.771,
+      "BABIP": 0.36,
+      "wRCMinusPoints": 58.5
+    },
+    {
+      "name": "Michael Toglia",
+      "normalized_name": "michael toglia",
+      "position": "Unknown",
+      "points": 48.0,
+      "wRC": 61,
+      "OPS": 0.636,
+      "BABIP": 0.293,
+      "wRCMinusPoints": 13.0
+    },
+    {
+      "name": "Ke'Bryan Hayes",
+      "normalized_name": "kebryan hayes",
+      "position": "Unknown",
+      "points": 65.5,
+      "wRC": 76,
+      "OPS": 0.624,
+      "BABIP": 0.319,
+      "wRCMinusPoints": 10.5
+    },
+    {
+      "name": "Josh Bell",
+      "normalized_name": "josh bell",
+      "position": "Unknown",
+      "points": 48.5,
+      "wRC": 45,
+      "OPS": 0.511,
+      "BABIP": 0.14,
+      "wRCMinusPoints": -3.5
+    },
+    {
+      "name": "Miguel Amaya",
+      "normalized_name": "miguel amaya",
+      "position": "Unknown",
+      "points": 61.5,
+      "wRC": 126,
+      "OPS": 0.815,
+      "BABIP": 0.333,
+      "wRCMinusPoints": 64.5
+    },
+    {
+      "name": "Jake Mangum",
+      "normalized_name": "jake mangum",
+      "position": "Unknown",
+      "points": 58.5,
+      "wRC": 131,
+      "OPS": 0.781,
+      "BABIP": 0.377,
+      "wRCMinusPoints": 72.5
+    },
+    {
+      "name": "Parker Meadows",
+      "normalized_name": "parker meadows",
+      "position": "Unknown",
+      "points": 0.0,
+      "wRC": null,
+      "OPS": null,
+      "BABIP": null,
+      "wRCMinusPoints": null
+    },
+    {
+      "name": "Jeff McNeil",
+      "normalized_name": "jeff mcneil",
+      "position": "Unknown",
+      "points": 34.5,
+      "wRC": 129,
+      "OPS": 0.846,
+      "BABIP": 0.242,
+      "wRCMinusPoints": 94.5
+    },
+    {
+      "name": "Harrison Bader",
+      "normalized_name": "harrison bader",
+      "position": "Unknown",
+      "points": 81.0,
+      "wRC": 146,
+      "OPS": 0.848,
+      "BABIP": 0.375,
+      "wRCMinusPoints": 65.0
+    },
+    {
+      "name": "Jose Trevino",
+      "normalized_name": "jose trevino",
+      "position": "Unknown",
+      "points": 69.0,
+      "wRC": 134,
+      "OPS": 0.873,
+      "BABIP": 0.329,
+      "wRCMinusPoints": 65.0
+    },
+    {
+      "name": "Edmundo Sosa",
+      "normalized_name": "edmundo sosa",
+      "position": "Unknown",
+      "points": 36.0,
+      "wRC": 128,
+      "OPS": 0.81,
+      "BABIP": 0.432,
+      "wRCMinusPoints": 92.0
+    },
+    {
+      "name": "Michael Conforto",
+      "normalized_name": "michael conforto",
+      "position": "Unknown",
+      "points": 38.5,
+      "wRC": 64,
+      "OPS": 0.537,
+      "BABIP": 0.213,
+      "wRCMinusPoints": 25.5
+    },
+    {
+      "name": "Trey Sweeney",
+      "normalized_name": "trey sweeney",
+      "position": "Unknown",
+      "points": 89.0,
+      "wRC": 113,
+      "OPS": 0.735,
+      "BABIP": 0.323,
+      "wRCMinusPoints": 24.0
+    },
+    {
+      "name": "Luis Urias",
+      "normalized_name": "luis urias",
+      "position": "Unknown",
+      "points": 63.5,
+      "wRC": 134,
+      "OPS": 0.829,
+      "BABIP": 0.227,
+      "wRCMinusPoints": 70.5
+    },
+    {
+      "name": "Kameron Misner",
+      "normalized_name": "kameron misner",
+      "position": "Unknown",
+      "points": 59.0,
+      "wRC": 113,
+      "OPS": 0.746,
+      "BABIP": 0.343,
+      "wRCMinusPoints": 54.0
+    },
+    {
+      "name": "Luke Keaschall",
+      "normalized_name": "luke keaschall",
+      "position": "Unknown",
+      "points": 31.0,
+      "wRC": null,
+      "OPS": null,
+      "BABIP": null,
+      "wRCMinusPoints": null
+    },
+    {
+      "name": "Jac Caglianone",
+      "normalized_name": "jac caglianone",
+      "position": "Unknown",
+      "points": 0.0,
+      "wRC": null,
+      "OPS": null,
+      "BABIP": null,
+      "wRCMinusPoints": null
+    },
+    {
+      "name": "Zack Gelof",
+      "normalized_name": "zack gelof",
+      "position": "Unknown",
+      "points": 0.0,
+      "wRC": null,
+      "OPS": null,
+      "BABIP": null,
+      "wRCMinusPoints": null
+    },
+    {
+      "name": "Bo Naylor",
+      "normalized_name": "bo naylor",
+      "position": "Unknown",
+      "points": 53.5,
+      "wRC": 90,
+      "OPS": 0.663,
+      "BABIP": 0.2,
+      "wRCMinusPoints": 36.5
+    },
+    {
+      "name": "Eric Wagaman",
+      "normalized_name": "eric wagaman",
+      "position": "Unknown",
+      "points": 68.0,
+      "wRC": 83,
+      "OPS": 0.667,
+      "BABIP": 0.267,
+      "wRCMinusPoints": 15.0
+    },
+    {
+      "name": "Victor Robles",
+      "normalized_name": "victor robles",
+      "position": "Unknown",
+      "points": 22.0,
+      "wRC": 80,
+      "OPS": 0.624,
+      "BABIP": 0.316,
+      "wRCMinusPoints": 58.0
+    },
+    {
+      "name": "Ha-Seong Kim",
+      "normalized_name": "ha seong kim",
+      "position": "Unknown",
+      "points": 0.0,
+      "wRC": null,
+      "OPS": null,
+      "BABIP": null,
+      "wRCMinusPoints": null
+    },
+    {
+      "name": "Andrew Benintendi",
+      "normalized_name": "andrew benintendi",
+      "position": "Unknown",
+      "points": 56.5,
+      "wRC": 99,
+      "OPS": 0.698,
+      "BABIP": 0.222,
+      "wRCMinusPoints": 42.5
+    }
+  ]
+}
