@@ -6,51 +6,43 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR / "data"
+BASE_DIR = Path(__file__).resolve().parent          # .../backend
+DATA_DIR = BASE_DIR / "data"                        # .../backend/data
 
 def load_json(name: str):
-    """Load JSON from backend/data/<name> with robust errors."""
     p = DATA_DIR / name
     if not p.exists():
         raise FileNotFoundError(f"Missing file: {p} (cwd={BASE_DIR})")
     return json.loads(p.read_text(encoding="utf-8"))
 
-@app.route("/")
+@app.route("/", strict_slashes=False)
 def index():
     return "Fantasy Baseball API is live!"
 
-@app.route("/api/league")
+@app.route("/api/league", strict_slashes=False)
 def api_league():
     try:
-        data = load_json_any("league_data.json", "data/league_data.json")
-        return jsonify(data)
+        return jsonify(load_json("league_data.json"))
     except Exception as e:
         app.logger.exception("Error loading league_data.json")
         return jsonify({"error":"failed_to_load_league_data","detail":str(e)}), 500
 
-@app.route("/api/free_agents")
+@app.route("/api/free_agents", strict_slashes=False)
 def api_free_agents():
     try:
-        data = load_json_any("free_agents.json", "data/free_agents.json")
-        return jsonify(data)
+        return jsonify(load_json("free_agents.json"))
     except Exception as e:
         app.logger.exception("Error loading free_agents.json")
         return jsonify({"error":"failed_to_load_free_agents","detail":str(e)}), 500
 
-@app.route("/api/fa_data")
+@app.route("/api/fa_data", strict_slashes=False)
 def api_fa_data():
     try:
-        data = load_json_any("fa_data.json", "data/fa_data.json")
-        return jsonify(data)
+        return jsonify(load_json("fa_data.json"))
     except Exception as e:
         app.logger.exception("Error loading fa_data.json")
         return jsonify({"error":"failed_to_load_fa_data","detail":str(e)}), 500
 
-@app.route("/debug/files")
-def debug_files():
-    files = [str(p) for p in BASE_DIR.iterdir()]
-    return jsonify({"cwd": str(BASE_DIR), "files": files})
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     app.run(host="0.0.0.0", port=5000)
