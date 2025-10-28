@@ -3,7 +3,7 @@ import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Papa, { parse } from "papaparse";
-import "./index.css";
+import "./styles/index.css";
 import LeagueDisplay from "./LeagueDisplay";
 import Team from "./Team";
 import Button from '@mui/material/Button';
