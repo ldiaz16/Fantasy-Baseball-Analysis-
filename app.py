@@ -47,6 +47,10 @@ def api_fa_data():
         app.logger.exception("Error loading fa_data.json")
         return jsonify({"error":"failed_to_load_fa_data","detail":str(e)}), 500
 
+@app.route("/debug/files")
+def debug_files():
+    files = [str(p) for p in BASE_DIR.iterdir()]
+    return jsonify({"cwd": str(BASE_DIR), "files": files})
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     app.run(host="0.0.0.0", port=5000)
