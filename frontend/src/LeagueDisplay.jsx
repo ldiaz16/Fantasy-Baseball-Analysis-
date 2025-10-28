@@ -5,7 +5,7 @@ const LeagueDisplay = () => {
   const [leagueData, setLeagueData] = useState(null);
 
   useEffect(() => {
-    fetch('${API}/api/league')
+    fetch(`${API}/api/league`)
       .then((response) => response.json())
       .then((data) => setLeagueData(data))
       .catch((error) => console.error('Error fetching league data:', error));

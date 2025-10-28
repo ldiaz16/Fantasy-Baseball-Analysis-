@@ -184,7 +184,7 @@ const processTeams = (teams) => {
 };
 
   useEffect(() => {
-    fetch('${API}/api/league')
+    fetch(`${API}/api/league`)
       .then((res) => res.json())
       .then((data) => {
         setLeagueJson(data);
@@ -202,7 +202,7 @@ const batters = selectedTeamData?.roster.filter(player => !player.is_pitcher);
 const pitchers = selectedTeamData?.roster.filter(player => player.is_pitcher);
 
   useEffect(() => {
-    fetch('${API}/api/fa_data')
+    fetch(`${API}/api/fa_data`)
       .then((res) => res.json())
       .then((data) => {
         setFreeAgentsJson(data);
