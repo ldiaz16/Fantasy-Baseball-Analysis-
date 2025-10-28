@@ -1,3 +1,25 @@
+# Node
+node_modules/
+dist/
+build/
+*.log
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store
+
+# Env
+.env
+frontend/.env
+backend/.env
+
+# Misc
+project_tree.txt
+
 # Logs
 logs
 *.log

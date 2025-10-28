@@ -7,14 +7,14 @@ app = Flask(__name__)
 CORS(app)
 
 BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "data"
 
-def load_json_any(*candidates):
-    for rel in candidates:
-        p = (BASE_DIR / rel)
-        if p.exists():
-            app.logger.info(f"Loading JSON from: {p}")
-            return json.loads(p.read_text(encoding="utf-8"))
-    raise FileNotFoundError(f"None of the paths exist: {', '.join(str(BASE_DIR / c) for c in candidates)}")
+def load_json(name: str):
+    """Load JSON from backend/data/<name> with robust errors."""
+    p = DATA_DIR / name
+    if not p.exists():
+        raise FileNotFoundError(f"Missing file: {p} (cwd={BASE_DIR})")
+    return json.loads(p.read_text(encoding="utf-8"))
 
 @app.route("/")
 def index():

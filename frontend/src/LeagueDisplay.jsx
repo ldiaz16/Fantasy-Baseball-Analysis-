@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
+const API = import.meta.env.VITE_API_BASE;
 
 const LeagueDisplay = () => {
   const [leagueData, setLeagueData] = useState(null);
 
   useEffect(() => {
-    fetch('/league_data.json')
+    fetch('${API}/api/league')
       .then((response) => response.json())
       .then((data) => setLeagueData(data))
       .catch((error) => console.error('Error fetching league data:', error));
