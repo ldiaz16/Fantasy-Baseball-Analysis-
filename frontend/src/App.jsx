@@ -67,6 +67,8 @@ export default function App(){
   const [freeAgentsJson, setFreeAgentsJson] = useState(null);
   const [selectedTeam, setSelectedTeam] = useState(null);
 
+  const API = import.meta.env.VITE_API_BASE
+
   const lowerIsBetterStats = new Set ([
     "pERA",
     "pWHIP",
@@ -182,7 +184,7 @@ const processTeams = (teams) => {
 };
 
   useEffect(() => {
-    fetch('/league_data.json')
+    fetch('${API}/api/league')
       .then((res) => res.json())
       .then((data) => {
         setLeagueJson(data);
@@ -200,7 +202,7 @@ const batters = selectedTeamData?.roster.filter(player => !player.is_pitcher);
 const pitchers = selectedTeamData?.roster.filter(player => player.is_pitcher);
 
   useEffect(() => {
-    fetch('/fa_data.json')
+    fetch('${API}/api/fa_data')
       .then((res) => res.json())
       .then((data) => {
         setFreeAgentsJson(data);
