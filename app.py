@@ -1,29 +1,52 @@
+# app.py (patched)
+import json, logging
+from pathlib import Path
 from flask import Flask, jsonify
-import json
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
-@app.route('/api/league')
-def get_league_data():
-    with open('league_data.json') as f:
-        data = json.load(f)
-    return jsonify(data)
+# Always resolve paths from the folder where app.py lives
+BASE_DIR = Path(__file__).resolve().parent
 
-@app.route('/api/free_agents')
-def get_free_agents():
-    with open('free_agents.json') as f:
-        data = json.load(f)
-    return jsonify(data)
+def load_json(filename: str):
+    p = (BASE_DIR / filename)
+    with p.open('r', encoding='utf-8') as f:
+        return json.load(f)
 
-@app.route('/api/fa_data')
-def get_fa_data():
-    with open('fa_data.json') as f:
-        data = json.load(f)
-    return jsonify(data)
-
-@app.route('/')
+@app.route("/")
 def index():
     return "Fantasy Baseball API is live!"
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+@app.route("/api/league")
+def api_league():
+    try:
+        data = load_json("league_data.json")  # make sure this file is committed to the repo
+        return jsonify(data)
+    except Exception as e:
+        app.logger.exception("Error loading league_data.json")
+        return jsonify({"error": "failed_to_load_league_data", "detail": str(e)}), 500
+
+@app.route("/api/free_agents")
+def api_free_agents():
+    try:
+        data = load_json("free_agents.json")
+        return jsonify(data)
+    except Exception as e:
+        app.logger.exception("Error loading free_agents.json")
+        return jsonify({"error": "failed_to_load_free_agents", "detail": str(e)}), 500
+
+@app.route("/api/fa_data")
+def api_fa_data():
+    try:
+        data = load_json("fa_data.json")
+        return jsonify(data)
+    except Exception as e:
+        app.logger.exception("Error loading fa_data.json")
+        return jsonify({"error": "failed_to_load_fa_data", "detail": str(e)}), 500
+
+if __name__ == "__main__":
+    # Make sure logs hit stdout so Render shows them
+    logging.basicConfig(level=logging.INFO)
+    app.run(host="0.0.0.0", port=5000)
